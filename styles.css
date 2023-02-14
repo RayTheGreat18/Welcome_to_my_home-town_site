@@ -1,0 +1,97 @@
+body {
+    
+    text-align: center;
+    margin: 0 auto;
+    color: #ffffff;
+    text-shadow: 20px 20px 50px black;
+    
+}
+
+
+
+img {
+    width: 100px;
+}
+
+#container1 {
+    width: 720px;
+    height: 334px;
+    background: url(images/Kabwata-at-night-large.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 0;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBg 8s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    margin: 0 auto;
+}
+
+/*#SLIDE_BG {
+    width: 100px;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBg 8s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url('images/Kabwata\ at\ night\ large.jpg');
+}
+ 
+@keyframes slideBg {
+    0% {
+        background-image: url(images/Kabwata-at-night-large.jpg);
+    }
+
+    35% {
+        background-image: url(images\detoriated-kabwata-flats.jpg);
+    }
+
+    60% {
+        background-image: url(images\DICZOZO-bar-pharmacy-shot.jpg);
+    }
+
+    100% {
+        background-image: url(images\Deterioted-balcony-view-flats.jpg);
+    }
+
+   
+}*/
+
+#container2 {
+    width: 720;
+    height: 378;
+    border: 2px solid black;
+    margin-bottom: 50px;
+    color: black;
+}
+
+
+#container3 {
+    width: 720;
+    height: 394;
+    border: 2px solid black;
+    color: black;
+}
+
+/*transparent background for later use*/
+/*.bg-overlay{
+	width: 100%;
+    height: 400px;
+    background: linear-gradient(0deg, rgba(255 255 255 / 54%), rgba(255 0 150 / 69%)), url(../../images/carousel-img2.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}*/
+
+
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
